@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>whatever dude</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" >
+    <link rel="stylesheet" href="main.css" type="text/css" >
+</head>
+
+<body>
+    <header>
+        <h1>HELLO GOOD PEOPLE</h1>
+    
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#Travel">Travelling</a>
+                </li>
+                <li>
+                    <a href="#TOWHERE">Where to travel?</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <hr>
+    <main>
+    <article id="Travel">
+        <h2>Travel the world</h2>
+            <p>&nbsp;&nbsp;I want to travel the world <em>especially in Santiago Barnabue</em> </p>
+        <figure>
+            <img src="img/cpfn8y.jpg" alt="realmadrid stadium" title="hala madrid" width="640" height="400" loading="lazy">
+            <figcaption>
+                Real Madrid Stadium
+            </figcaption>
+        </figure>
+            <ol>
+                <li>Barnabue is in Spain.</li>
+                <li>It is a football stadium.A huge stadium.The environment is <abbr title="Good Game"><a href="https://www.realmadrid.com/">GG.</a></abbr></li>
+            </ol>
+
+        <h3>Football</h3>
+        <p>Real Madrid is the best club in the world</p>
+        <aside>
+            <details>
+                <summary>How many CHAMPIONS LEAGUE has won real madrid?</summary>
+                <p>Highest in the world. It's<mark>14</mark></p>
+            </details>
+        </aside>
+            <address>
+                <br>Av. de Concha Espina, 1, 28036 Madrid
+                <br>Spain
+            </address>
+    </article>
+    <hr>
+    <article id="TOWHERE">
+  
+    <h2>Where else to travel</h2>
+        <ul>
+            <p>so many places.<strong>especially in Europe</strong></p>
+            <p>people from all over the world came to visit</p>
+            <img src="img/europe.jpg" alt="cities of europe" title="Europe" width="750" height="500">
+        </ul>
+    </article>
+    
+    <hr>
+    
+    <!-- this is a comment  -->
+    <h3>Money Issue</h3>
+    <p>If you want to travel nothing can't stop you </p>
+
+    <dl>
+        <dt>England</dt>
+        <dd>this is Premier league</dd>
+
+        <dt>Germany</dt>
+        <dd>this is Bundesliga</dd>
+    </dl>
+    <br>
+    <table>
+        <caption>CHAMPIONS LEAGUE WINNER</caption>
+        <thead>
+        <tr>
+            <th>Year</th>
+            <th>Winner</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>
+                <time datetime="1999">1999</time>-<time datetime="2000">2000</time>
+            </td>
+            <td> Real Madrid</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="2000">2000</time>-<time datetime="2001">2001</time>
+            </td>
+            <td>Bayern Munich</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="2001">2001</time>-<time datetime="2002">2002</time>
+            </td>
+            <td> Real Madrid</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="2002">2002</time>-<time datetime="2003">2003</time>
+            </td>
+            <td> A.C. Milan</td>
+        </tr>
+        <tr>
+            <td>2015-2016</td>
+            <td rowspan="3">Real Madrid</td>
+            
+            
+            
+        </tr>
+        <tr>
+            <td>2016-2017</td>
+        </tr>
+        <tr>
+            <td>2017-2018</td>
+        </tr>
+        </tbody>
+        
+    </table>
+    <br>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you</p>
+       
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+            <p>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Rock" autocomplete="on" required autofocus>
+            </p>    
+            <p>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="singh" autocomplete="on" required >
+            </p>   
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="your secret" required >
+            </p>   
+            <p>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+            </p>   
+            <p>
+                <label for="decade">Birth Year</label>
+                <input type="number" name="decade" id="decade" min="1990" max="2023" step="1" value="2000">
+            </p>
+            <p>
+                <label for="club">Favorite Football Club</label>
+                <select name="club" id="club" multiple size="3">
+                    <optgroup label="Spanish Club">
+                    <option value="real madrid">Real Madrid</option>
+                    <option value="barcelona">Barcelona</option>
+                </optgroup>
+                <optgroup label="English Club">
+                    <option value="arsenal" selected>Arsenal</option>
+                    <option value="chelsea">Chelsea</option>
+                    <option value="liverpool">Liverpool</option>
+                </optgroup>
+                <optgroup label="German Club">
+                    <option value="bayern munich">Bayern Munich</option>
+                    <option value="dortmund">Dortmund</option>
+                </optgroup> 
+                    <option value="other">Other</option>
+                </select>
+            </p>
+           <!-- <p>
+            <label for="club">Favorite Football Club:</label>
+             <input type="text" name="club" id="club" list="club-list">
+             <datalist id="club-list">
+                <option value="real madrid">
+                <option value="barcelona">
+                <option value="arsenal">
+                <option value="chelsea">
+                <option value="liverpool">
+                <option value="bayern munich">
+                <option value="dortmund">
+             </datalist>
+           </p> -->
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>What is your Favorite Food</legend>
+            <p>
+               <input type="radio" name="food" id="tacos" value="tacos">
+               <label for="tacos">Tacos</label>
+             </p>
+            <p>
+               <input type="radio" name="food" id="pizza" value="pizza">
+               <label for="pizza">Pizza</label>
+             </p>
+            <p>
+               <input type="radio" name="food" id="other" value="other">
+               <label for="other">Other</label>
+             </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog"> Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="pets" id="cat" value="cat">
+                <label for="cat"> Cat</label>
+            </p>
+          
+            <p>
+                <input type="checkbox" name="pets" id="fish" value="fish">
+                <label for="fish">Fish</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Send me a note</legend>
+            <label for="message"> Message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"> </textarea>
+
+        </fieldset>
+        <br>
+        <button type="submit"> Submit</button>
+        <button type="reset"> Reset</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post"> Post</button>
+
+            </form>
+ 
+        
+
+    </article>
+    
+    </main>
+    <br>
+    <footer>
+
+        <p> &lt; &lt; &lt; &copy; <a href="about.html">yo</a> &gt;&gt;&gt;</p>
+
+    <p>
+        <a href="#">
+            back to TOP
+        </a>
+    </p>
+    </footer>
+</body>
+
+
+
+
+</html>
